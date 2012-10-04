@@ -59,7 +59,7 @@
                                 </ul>
                             </li>
                         </ul>
-                        <form class="navbar-form pull-right">
+                        <form class="navbar-form pull-right" method="POST" action="{# % url 'django.contrib.auth.views.login' % #}">{% csrf_token %}
                             <input class="span2" type="text" placeholder="Email">
                             <input class="span2" type="password" placeholder="Password">
                             <button type="submit" class="btn">Sign in</button>
