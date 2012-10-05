@@ -71,15 +71,15 @@
         </div>
         {% endblock navbar %}
 
-        <div class="container" id="content">
         {% block container %}
+        <div class="container" id="content">
 
             {% block content %}{% endblock %}
 
             <footer>{% block footer %}{% endblock %}</footer>
 
-        {% endblock container %}
         </div>
+        {% endblock container %}
 
         {% block script-libraries %}
             <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
