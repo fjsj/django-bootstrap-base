@@ -2,7 +2,7 @@
 Django Bootrap Base - HTML5 Boilerplate
 ================================
 
-This provides a base template bootstrap-base/html5pb.html for your own base_site.html to extend.
+This provides a base template bootstrap_base/html5pb.html for your own base_site.html to extend.
 
 It is based on http://initializr.com/
 

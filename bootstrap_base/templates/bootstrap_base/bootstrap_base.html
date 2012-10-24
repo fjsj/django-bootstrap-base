@@ -13,20 +13,20 @@
         {% endblock meta-tags %}
 
         {% block style-libraries %}
-        <link rel="stylesheet" href="{% static 'bootstrap-base/css/bootstrap.min.css' %}">
+        <link rel="stylesheet" href="{% static 'bootstrap_base/css/bootstrap.min.css' %}">
         <style>
             body {
                 padding-top: 60px;
                 padding-bottom: 40px;
             }
         </style>
-        <link rel="stylesheet" href="{% static 'bootstrap-base/css/bootstrap-responsive.min.css' %}">
+        <link rel="stylesheet" href="{% static 'bootstrap_base/css/bootstrap-responsive.min.css' %}">
         {% endblock style-libraries %}
         {% block styles %}{% endblock styles %}
 
         {% block extrahead %}{% endblock extrahead %}
         {% block modernizr %}
-        <script src="{% static 'bootstrap-base/js/modernizr-2.6.1-respond-1.1.0.min.js' %}"></script>
+        <script src="{% static 'bootstrap_base/js/modernizr-2.6.1-respond-1.1.0.min.js' %}"></script>
         {% endblock modernizr %}
     </head>
     <body>
@@ -83,8 +83,8 @@
 
         {% block script-libraries %}
             <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
-            <script>window.jQuery || document.write('<script src="{% static 'bootstrap-base/js/jquery-1.8.1.min.js' %}"><\/script>')</script>
-            <script src="{% static 'bootstrap-base/js/bootstrap.min.js' %}"></script>
+            <script>window.jQuery || document.write('<script src="{% static 'bootstrap_base/js/jquery-1.8.1.min.js' %}"><\/script>')</script>
+            <script src="{% static 'bootstrap_base/js/bootstrap.min.js' %}"></script>
         {% endblock script-libraries %}
         {% block scripts %}
             <!-- script src="js/main.js"></script -->
